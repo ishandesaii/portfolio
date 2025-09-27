@@ -5,17 +5,17 @@ const skills = [
   {
     category: 'Programming Languages',
     icon: Code,
-    skills: ['Python', 'SQL', 'R', 'C', 'C++', 'JavaScript', 'React', 'HTML', 'CSS', 'TailwindCSS'],
+    skills: ['Python', 'SQL', 'R', 'C', 'C++', 'JavaScript', 'React', 'HTML', 'CSS', 'TailwindCSS', 'R Programming'],
   },
   {
     category: 'Data Tools',
     icon: Database,
-    skills: ['MySQL', 'Tableau', 'Power BI', 'Excel', 'PostgreSQL', 'MongoDB', 'neo4j', 'InfluxDB', 'MATLAB'],
+    skills: ['MySQL', 'Tableau', 'Power BI', 'Excel', 'PostgreSQL', 'MongoDB', 'neo4j', 'InfluxDB', 'MATLAB', 'DBeaver', 'Apache Hive', 'Apache Iceberg'],
   },
   {
     category: 'Application Software',
     icon: Server,
-    skills: ['AWS', 'Microsoft Azure', 'MS Office', 'Github', 'SAP Business Objects', 'Atlassian', 'Jira', 'PySpark'],
+    skills: ['Microsoft Azure', 'AWS', 'Gitlab', 'SAP Business Objects', 'Atlassian', 'Jira', 'PySpark', 'Visual Studio'],
   },
   
 ];

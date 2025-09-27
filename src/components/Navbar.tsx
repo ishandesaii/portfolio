@@ -46,7 +46,7 @@ export default function Navbar() {
               <a href="mailto:ishanmd2@illinois.edu" className={`transition-all duration-200 transform font-bold hover:scale-110 ${isScrolled ? 'text-gray-700 hover:text-gray-900' : 'text-gray-700 hover:text-white'}`}>
                 <Mail className="w-5 h-5" />
               </a>
-              <a href="/Ishan Resume.pdf" target="_blank" rel="noopener noreferrer" className="bg-blue-500 text-white text-sm px-4 py-2 rounded-md hover:bg-blue-600 transition-colors">
+              <a href="/portfolio/resume.pdf" target="_blank" rel="noopener noreferrer" className="bg-blue-500 text-white text-sm px-4 py-2 rounded-md hover:bg-blue-600 transition-colors">
                 Resume
               </a>
             </div>
@@ -72,7 +72,7 @@ export default function Navbar() {
               <a href="#skills" className="text-gray-500 hover:text-white" onClick={() => setIsOpen(false)}>Skills</a>
               <a href="#projects" className="text-gray-500 hover:text-white" onClick={() => setIsOpen(false)}>Projects</a>
               <a href="#contact" className="text-gray-500 hover:text-white" onClick={() => setIsOpen(false)}>Contact</a>
-              <a href="/Ishan Resume.pdf" target="_blank" rel="noopener noreferrer"className="text-gray-500 hover:text-white font-semibold">Resume</a>
+              <a href="/portfolio/resume.pdf" target="_blank" rel="noopener noreferrer"className="text-gray-500 hover:text-white font-semibold">Resume</a>
               <div className="flex space-x-4 py-2">
                 <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-white">
                   <Github className="w-5 h-5" />

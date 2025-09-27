@@ -5,6 +5,7 @@ export interface TimelineItem {
   url?: string;
   description: string;
   icon: 'work' | 'education';
+  type: 'experience' | 'education';
 }
 
 export interface ProjectItem {

@@ -9,13 +9,14 @@ export default function Hero() {
     <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gray-900">
   {/* 🔁 Background Video */}
   <video
-    className="absolute top-0 left-0 w-full h-full object-cover z-0"
-    src="/v3.mp4"
-    autoPlay
-    loop
-    muted
-    playsInline
-  />
+  className="absolute top-0 left-0 w-full h-full object-cover z-0"
+  src={`${import.meta.env.BASE_URL}v3.mp4`}
+  autoPlay
+  loop
+  muted
+  playsInline
+/>
+
 
   {/* 🌫 Overlay for readability */}
   <div className="absolute top-0 left-0 w-full h-full bg-black/50 z-0" />

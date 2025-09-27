@@ -4,10 +4,11 @@ export const timelineData: TimelineItem[] = [
   {
     year: 'May 2025 - Present',
     title: 'Data Scientist Intern',
-    company: 'COUNTRY Financial (IL,USA)',
-    url: "https://www.countryfinancial.com/en/digitalab.html",
-    description: 'Working on machine learning models and data analysis',
-    icon: 'work'
+    company: 'COUNTRY Financial (Illinois, USA)',
+    url: 'https://www.countryfinancial.com/en/digitalab.html',
+    description: 'Built an Azure-based pipeline with OpenAI to automate policy document checks, saving 15+ hours weekly and $100K annually. Assisted in migrating from Hive-based architecture to Apache Iceberg, boosting performance by 70%.',
+    icon: 'work',
+    type: 'experience',
   },
   {
     year: 'March 2023 - September 2024',
@@ -15,39 +16,44 @@ export const timelineData: TimelineItem[] = [
     company: 'Tata Advanced Systems Limited (Mumbai, India)',
     url: 'https://www.tataadvancedsystems.com/',
     description: 'Developed a 97%-accurate facial recognition system using YOLO v8, CV and RNN, reducing false alarms by 40% and safety violations by 50% with real-time dashboards.',
-    icon: 'work'
+    icon: 'work',
+    type: 'experience',
   },
   {
     year: 'March 2023 – September 2023',
-    title: 'Head of Department – Regional Coordinator ',
+    title: 'Head of Department – Regional Coordinator',
     company: 'EdLodge Foundation (Kolkata, India)',
     url: 'https://www.linkedin.com/company/ed-lodge/?originalSubdomain=in',
     description: 'Led 250+ volunteers, coordinated outreach to schools for free education, organized weekly meets, and streamlined team efforts through strategic planning and reporting.',
-    icon: 'work'
+    icon: 'work',
+    type: 'experience',
   },
   {
     year: 'Jan 2023 – March 2023',
-    title: 'Market Research Analyst ',
+    title: 'Market Research Analyst',
     company: 'GetMyParking (Mumbai, India)',
     url: 'https://www.getmyparking.com/en-us',
     description: 'Conducted market research and data analysis on Mumbai parking trends using Excel and Tableau, delivering insights that shaped pricing, demand forecasting, and expansion strategies.',
-    icon: 'work'
+    icon: 'work',
+    type: 'experience',
   },
   {
     year: 'November 2022 – July 2023',
-    title: ' Data Analyst Intern ',
+    title: 'Data Analyst Intern',
     company: 'Narola Infotech (Surat, India)',
     url: 'https://www.narolainfotech.com/',
     description: 'Built interactive dashboards and applied ML techniques for fraud detection, saving $80K, while improving data quality by 30% and transparency by 40% using Tableau, Power BI, and Python.',
-    icon: 'work'
+    icon: 'work',
+    type: 'experience',
   },
   {
     year: 'July 2022 – August 2022',
-    title: 'Data Engineer Intern ',
+    title: 'Data Engineer Intern',
     company: 'Servify (Mumbai, India)',
     url: 'https://servify.com/in/',
     description: 'Developed a Slack-integrated chatbot using Python and Flask to automate sales data retrieval, cutting 18 hours of bi-weekly workload, while managing Agile workflows via Jira and SCRUM.',
-    icon: 'work'
+    icon: 'work',
+    type: 'experience',
   },
   {
     year: 'August 2024 – May 2026',
@@ -55,14 +61,17 @@ export const timelineData: TimelineItem[] = [
     company: 'University of Illinois Urbana-Champaign (IL, USA)',
     url: 'https://ischool.illinois.edu/',
     description: 'GAP: 4.0/4.0',
-    icon: 'education'
+    icon: 'education',
+    type: 'education',
   },
   {
-    year: '2020 - 2024',
-    title: 'Bachelors in Information Technology',
+    year: 'August 2020 - June 2024',
+    title: "Bachelor's in Information Technology",
     company: 'DJ Sanghvi College of Engineering (Mumbai, India)',
     url: 'https://www.djsce.ac.in/',
     description: 'GPA: 9.08/10',
-    icon: 'education'
-  }
+    icon: 'education',
+    type: 'education',
+  },
 ];
+

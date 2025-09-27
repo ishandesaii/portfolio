@@ -6,17 +6,17 @@ export default function Timeline() {
   return (
     <section id="experience" className="py-20 bg-gradient-to-b from-white to-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Desktop View */}
         <motion.h2 
-          className="text-3xl md:text-4xl font-bold text-center mb-16"
+          className="text-3xl md:text-4xl font-bold text-center mb-16 hidden md:block"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false }}
         >
           Experience & Education
         </motion.h2>
-        
-        <div className="relative">
-          {/* Vertical Line */}
+
+        <div className="relative hidden md:block">
           <div className="absolute left-1/2 transform -translate-x-1/2 w-0.5 h-full bg-gray-200" />
 
           <div className="space-y-12">
@@ -29,13 +29,10 @@ export default function Timeline() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className={`flex items-center ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}
               >
-                {/* Content */}
                 <div className="w-1/2 pr-8 pl-8">
                   <motion.div
                     whileHover={{ scale: 1.02 }}
-                    className={`bg-white p-6 rounded-lg shadow-md ${
-                      index % 2 === 0 ? 'text-right' : 'text-left'
-                    }`}
+                    className={`bg-white p-6 rounded-lg shadow-md text-left`}
                   >
                     <span className="inline-block px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm font-medium mb-2">
                       {item.year}
@@ -46,7 +43,6 @@ export default function Timeline() {
                   </motion.div>
                 </div>
 
-                {/* Icon */}
                 <motion.div
                   whileHover={{ rotate: 360 }}
                   transition={{ duration: 0.6 }}
@@ -59,13 +55,57 @@ export default function Timeline() {
                   )}
                 </motion.div>
 
-                {/* Empty space for the other side */}
                 <div className="w-1/2" />
               </motion.div>
             ))}
           </div>
         </div>
+
+        {/* Mobile View Experience */}
+        <h2 className="text-3xl font-bold text-center mt-16 mb-8 md:hidden">Experience</h2>
+        {timelineData.filter(item => item.type === 'experience').map((item, index) => (
+          <motion.div
+            key={`exp-${index}`}
+            className="mb-6 md:hidden"
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: index * 0.1 }}
+          >
+            <div className="bg-white p-6 rounded-xl shadow-md">
+              <span className="inline-block px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm font-medium mb-2">
+                {item.year}
+              </span>
+              <h3 className="text-xl font-bold text-gray-900">{item.title}</h3>
+              <a href={item.url} target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:underline font-semibold">{item.company}</a>
+              <p className="text-gray-600 mt-2">{item.description}</p>
+            </div>
+          </motion.div>
+        ))}
+
+        {/* Mobile View Education */}
+        <h2 className="text-3xl font-bold text-center mt-16 mb-8 md:hidden">Education</h2>
+        {timelineData.filter(item => item.type === 'education').map((item, index) => (
+          <motion.div
+            key={`edu-${index}`}
+            className="mb-6 md:hidden"
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: index * 0.1 }}
+          >
+            <div className="bg-white p-6 rounded-xl shadow-md">
+              <span className="inline-block px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm font-medium mb-2">
+                {item.year}
+              </span>
+              <h3 className="text-xl font-bold text-gray-900">{item.title}</h3>
+              <a href={item.url} target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:underline font-semibold">{item.company}</a>
+              <p className="text-gray-600 mt-2">{item.description}</p>
+            </div>
+          </motion.div>
+        ))}
       </div>
     </section>
   );
 }
+

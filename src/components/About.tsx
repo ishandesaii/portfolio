@@ -30,8 +30,7 @@ export default function About() {
         className="aspect-square rounded-2xl overflow-hidden"
       >
         <img
-          src="/ishan.png"
-          alt="Ishan Desai"
+          src={`${import.meta.env.BASE_URL}ishan.png`} alt="Ishan Desai"
           className="w-full h-full object-cover rounded-2xl"
         />
       </motion.div>
