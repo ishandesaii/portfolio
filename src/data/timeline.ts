@@ -2,6 +2,15 @@ import { TimelineItem } from '../types';
 
 export const timelineData: TimelineItem[] = [
   {
+    year: 'September 2025 - Present',
+    title: 'Consultant',
+    company: 'Illinois Buiness Consulting (Illinois, USA)',
+    url: 'https://giesbusiness.illinois.edu/experience/experiential-learning/illinois-business-consulting',
+    description: "Developed a KPI framework and reporting pipeline (Microsoft Forms → Excel → Azure DB → Tableau) for client's Global Early Career Programs, cutting HR manual effort by 50% and enabling leadership with insights to strengthen university partnerships, forecast talent pipelines, and justify ROI.",
+    icon: 'work',
+    type: 'experience',
+  },
+  {
     year: 'May 2025 - Present',
     title: 'Data Scientist Intern',
     company: 'COUNTRY Financial (Illinois, USA)',
@@ -29,7 +38,7 @@ export const timelineData: TimelineItem[] = [
     type: 'experience',
   },
   {
-    year: 'Jan 2023 – March 2023',
+    year: 'January 2023 – March 2023',
     title: 'Market Research Analyst',
     company: 'GetMyParking (Mumbai, India)',
     url: 'https://www.getmyparking.com/en-us',
