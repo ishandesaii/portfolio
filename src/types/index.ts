@@ -6,6 +6,8 @@ export interface TimelineItem {
   description: string;
   icon: 'work' | 'education';
   type: 'experience' | 'education';
+  logo?: string;
+  logoAlt?: string;
 }
 
 export interface ProjectItem {
