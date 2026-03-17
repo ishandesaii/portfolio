@@ -43,8 +43,8 @@ export default function About() {
         className="space-y-6"
       >
         {[
-          "I'm Ishan, a passionate and detail-oriented Data Scientist with a strong foundation in software engineering, analytics, and AI. I thrive at the intersection of data and decision-making.",
-          "With hands-on experience in modern web technologies and both frontend/backend development, I help businesses build scalable solutions and mentor aspiring developers.",
+          "I’m Ishan, someone who enjoys working with data to solve real problems and make sense of complex information. I like connecting analysis with business context to help teams make better decisions.",
+          "I have hands-on experience with SQL, Python, and Project Management, and I focus on building practical solutions while clearly communicating insights that drive impact.",
           "When I’m not analyzing data or writing code, you’ll find me playing cricket 🏏, hitting the gym 💪, or hunting for food spots 🍽️."
         ].map((text, i) => (
           <motion.p

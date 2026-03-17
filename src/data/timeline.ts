@@ -3,7 +3,7 @@ import { TimelineItem } from '../types';
 export const timelineData: TimelineItem[] = [
   {
     year: 'September 2025 - Present',
-    title: 'Consultant',
+    title: ' Technology Consultant',
     company: 'Illinois Buiness Consulting (Illinois, USA)',
     url: 'https://giesbusiness.illinois.edu/experience/experiential-learning/illinois-business-consulting',
     description: "Developed a KPI framework and reporting pipeline (Microsoft Forms → Excel → Azure DB → Tableau) for client's Global Early Career Programs, cutting HR manual effort by 50% and enabling leadership with insights to strengthen university partnerships, forecast talent pipelines, and justify ROI.",
@@ -42,7 +42,7 @@ export const timelineData: TimelineItem[] = [
     title: 'Market Research Analyst',
     company: 'GetMyParking (Mumbai, India)',
     url: 'https://www.getmyparking.com/en-us',
-    description: 'Conducted market research and data analysis on Mumbai parking trends using Excel and Tableau, delivering insights that shaped pricing, demand forecasting, and expansion strategies.',
+    description: 'Conducted market research and data analysis on parking spaces across India using Excel and Tableau, delivering insights that shaped pricing, demand forecasting, and expansion strategies.',
     icon: 'work',
     type: 'experience',
   },
@@ -69,7 +69,7 @@ export const timelineData: TimelineItem[] = [
     title: 'Master of Science in Information Management',
     company: 'University of Illinois Urbana-Champaign (IL, USA)',
     url: 'https://ischool.illinois.edu/',
-    description: 'GAP: 4.0/4.0',
+    description: 'GPA: 4.0/4.0',
     icon: 'education',
     type: 'education',
   },

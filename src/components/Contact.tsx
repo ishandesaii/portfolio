@@ -84,7 +84,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-600">Location</p>
-                  <p className="text-gray-900 font-medium">Champaign, IL, USA</p>
+                  <p className="text-gray-900 font-medium">Illinois, USA</p>
                 </div>
               </motion.div>
             </div>
