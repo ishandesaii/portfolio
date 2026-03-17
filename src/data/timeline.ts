@@ -10,7 +10,7 @@ export const timelineData: TimelineItem[] = [
       "Developed a KPI framework and reporting pipeline (Microsoft Forms → Excel → Azure DB → Tableau) for client's Global Early Career Programs, cutting HR manual effort by 50% and enabling leadership with insights to strengthen university partnerships, forecast talent pipelines, and justify ROI.",
     icon: 'work',
     type: 'experience',
-    logo: 'public/logos/ibc.png',
+    logo: '/logos/ibc.png',
     logoAlt: 'Illinois Business Consulting logo',
   },
   {
@@ -22,7 +22,7 @@ export const timelineData: TimelineItem[] = [
       'Built an Azure-based pipeline with OpenAI to automate policy document checks, saving 15+ hours weekly and $100K annually. Assisted in migrating from Hive-based architecture to Apache Iceberg, boosting performance by 70%.',
     icon: 'work',
     type: 'experience',
-    logo: 'public/logos/country.png',
+    logo: '/logos/country.png',
     logoAlt: 'COUNTRY Financial logo',
   },
   {
@@ -34,7 +34,7 @@ export const timelineData: TimelineItem[] = [
       'Developed a 97%-accurate facial recognition system using YOLO v8, CV and RNN, reducing false alarms by 40% and safety violations by 50% with real-time dashboards.',
     icon: 'work',
     type: 'experience',
-    logo: 'public/logos/tasl.png',
+    logo: '/logos/tasl.png',
     logoAlt: 'Tata Advanced Systems Limited logo',
   },
   {
@@ -46,7 +46,7 @@ export const timelineData: TimelineItem[] = [
       'Led 250+ volunteers, coordinated outreach to schools for free education, organized weekly meets, and streamlined team efforts through strategic planning and reporting.',
     icon: 'work',
     type: 'experience',
-    logo: 'public/logos/edlodge.png',
+    logo: '/logos/edlodge.png',
     logoAlt: 'EdLodge Foundation logo',
   },
   {
@@ -58,7 +58,7 @@ export const timelineData: TimelineItem[] = [
       'Conducted market research and data analysis on parking spaces across India using Excel and Tableau, delivering insights that shaped pricing, demand forecasting, and expansion strategies.',
     icon: 'work',
     type: 'experience',
-    logo: 'public/logos/getmyparking.png',
+    logo: '/logos/getmyparking.png',
     logoAlt: 'GetMyParking logo',
   },
   {
@@ -70,7 +70,7 @@ export const timelineData: TimelineItem[] = [
       'Built interactive dashboards and applied ML techniques for fraud detection, saving $80K, while improving data quality by 30% and transparency by 40% using Tableau, Power BI, and Python.',
     icon: 'work',
     type: 'experience',
-    logo: 'public/logos/narola.png',
+    logo: '/logos/narola.png',
     logoAlt: 'Narola Infotech logo',
   },
   {
@@ -82,7 +82,7 @@ export const timelineData: TimelineItem[] = [
       'Developed a Slack-integrated chatbot using Python and Flask to automate sales data retrieval, cutting 18 hours of bi-weekly workload, while managing Agile workflows via Jira and SCRUM.',
     icon: 'work',
     type: 'experience',
-    logo: 'public/logos/servify.png',
+    logo: '/logos/servify.png',
     logoAlt: 'Servify logo',
   },
   {
@@ -93,7 +93,7 @@ export const timelineData: TimelineItem[] = [
     description: 'GPA: 4.0/4.0',
     icon: 'education',
     type: 'education',
-    logo: 'public/logos/uiuc.png',
+    logo: '/logos/uiuc.png',
     logoAlt: 'UIUC logo',
   },
   {
@@ -104,7 +104,7 @@ export const timelineData: TimelineItem[] = [
     description: 'GPA: 9.08/10',
     icon: 'education',
     type: 'education',
-    logo: 'public/logos/djsce.png',
+    logo: '/logos/djsce.png',
     logoAlt: 'DJ Sanghvi College of Engineering logo',
   },
 ];
